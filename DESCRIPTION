@@ -1,0 +1,21 @@
+Package: RGameDay
+Type: Package
+Title: An API for R for the MLBAM GameDay data
+Version: 0.1-1
+Date: 2013-09-02
+Author: Ben Baumer
+Maintainer: Ban Baumer <ben.baumer@gmail.com>
+Description: This package will download data from the MLBAM GameDay server
+Depends:
+    R (>= 1.8.0)
+Imports:
+    mosaic,
+    XML,
+    RCurl,
+    plyr,
+    stringr,
+    Sxslt,
+    Lahman
+License: GPL (>=2)
+Collate:
+    'GameDay.R'
